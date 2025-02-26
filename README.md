@@ -1,3 +1,8 @@
 # Terrafrom-documents.
 
-will start from heres
+1 basic
+2 modulerization 
+3 remote backend
+4 state locking 
+5 provisioners
+
