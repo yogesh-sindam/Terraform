@@ -5,6 +5,7 @@
 3 remote backend
 4 state locking 
 5 provisioners
+6 local-exec, remote-exec
 ```
 
 
