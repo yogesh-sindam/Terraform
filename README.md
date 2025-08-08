@@ -18,6 +18,8 @@ terraform fmt - formating, removes extra whitspace, maintian a syntax like open 
 terraform state module_name - to see the module specification
 terraform state list see all the module
 
+terraform destory
+
 ```
 
 
