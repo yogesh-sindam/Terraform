@@ -12,7 +12,11 @@
 terraform init - to initialize
 terraform plan - to dry run or a basic execution check that plan can able to apply
 terraform apply - apply the changes on provider 
+terraform apply --auto-approve - to skip manual acceptence which applying the plan
+terraform import import one module to  current working
+terraform fmt - formating, removes extra whitspace, maintian a syntax like open bracket will be closed
 
-will add
+
+ will add
 each file existing in the 
 
