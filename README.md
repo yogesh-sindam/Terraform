@@ -21,7 +21,7 @@ terraform state rm - remove a module from statefile
 terraform destory
 plan and destroy target specific resource
 terraform plan -target=module
-
+terraform apply -target=module
 terraform destory -target=module
 
 
