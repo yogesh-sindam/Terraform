@@ -19,7 +19,7 @@ terraform state module_name - to see the module specification
 terraform state list - see all the module
 terraform state rm - remove a module from statefile
 terraform destory
-terraform 
+plan and destroy target specific resource
 
 
 
