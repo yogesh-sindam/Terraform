@@ -23,6 +23,7 @@ plan and destroy target specific resource
 terraform plan -target=module
 terraform apply -target=module
 terraform destory -target=module
+terraform taint resource_name.resource_locak_name  # destroy and create the resource
 
 
 ```
