@@ -25,7 +25,7 @@ terraform apply -target=module
 terraform destory -target=module
 terraform taint resource_name.resource_locak_name  # destroy and create the resource
 terraform refresh # refresh the state file with actual state
-terraform refresh --target
+terraform refresh --target=moudle.aws_instance.loacl_name ## we can refresh module by targeting 
 
 ```
 Drift detection between code and actual infra
