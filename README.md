@@ -24,6 +24,8 @@ terraform plan -target=module
 terraform apply -target=module
 terraform destory -target=module
 terraform taint resource_name.resource_locak_name  # destroy and create the resource
+terraform refresh # refresh the state file with actual state
+
 
 
 ```
