@@ -26,7 +26,7 @@ terraform destory -target=module
 terraform taint resource_name.resource_locak_name  # destroy and create the resource
 terraform refresh # refresh the state file with actual state
 terraform refresh --target=moudle.aws_instance.loacl_name ## we can refresh module by targeting 
-terraform workspace
+terraform workspace show [to check the workspace]
 terraform workspace neew [new workspace]
 terraform workspace list [list of all workspcaes]
 terraform workspace select [to select a workspace]
