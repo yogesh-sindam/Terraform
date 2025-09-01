@@ -28,6 +28,7 @@ terraform refresh # refresh the state file with actual state
 terraform refresh --target=moudle.aws_instance.loacl_name ## we can refresh module by targeting 
 terraform workspace
 terraform workspace neew [new workspace]
+terraform workspace list [list of all workspcaes]
 
 
 
