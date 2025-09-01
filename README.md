@@ -29,7 +29,7 @@ terraform refresh --target=moudle.aws_instance.loacl_name ## we can refresh modu
 terraform workspace
 terraform workspace neew [new workspace]
 terraform workspace list [list of all workspcaes]
-
+terraform workspace select [to select a workspace]
 
 
 ```
