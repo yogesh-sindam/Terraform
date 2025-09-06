@@ -8,4 +8,6 @@ rds
 dynamodb
 iam
 eks
+redis{elasticache}
+
 ```
