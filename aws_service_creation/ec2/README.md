@@ -9,5 +9,7 @@ dynamodb
 iam
 eks
 redis{elasticache}
-
+kms
+ssm
+s3
 ```
