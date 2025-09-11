@@ -12,5 +12,5 @@ redis{elasticache}
 kms
 ssm
 s3
-cloudfront
+cloudfront.
 ```
