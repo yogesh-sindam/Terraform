@@ -3,7 +3,7 @@
 1 basic
 2 modulerization 
 3 remote backend
-4 state locking 
+4 state locking (Dynamodb)
 5 provisioners
 6 local-exec, remote-exec
 ```
