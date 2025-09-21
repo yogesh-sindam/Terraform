@@ -32,6 +32,7 @@ terraform workspace list [list of all workspcaes]
 terraform workspace select workspace_name [to select a workspace]
 terraform workpace delete workspace_name
 terraform plan --refresh-only # since refresh is being deprecated form version 1.9 >
+terraform apply --refresh-only
 
 ```
 Drift detection between code and actual infra
