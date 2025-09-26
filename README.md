@@ -7,6 +7,7 @@
 5 provisioners
 6 local-exec, remote-exec
 7 null resource[ no action resource ]
+  best use of null resource with provisioners 
 
 ```
 ## Important terraform commands
