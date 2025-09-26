@@ -6,6 +6,8 @@
 4 state locking (Dynamodb)
 5 provisioners
 6 local-exec, remote-exec
+7 null resource[ no action resource ]
+
 ```
 ## Important terraform commands
 ```
