@@ -26,7 +26,7 @@ plan and destroy target specific resource
 terraform plan -target=module
 terraform apply -target=module
 terraform destory -target=module
-terraform taint resource_name.resource_locak_name  # destroy and create the resource
+terraform taint resource_name.resource_local_name  # destroy and create the resource
 terraform refresh # refresh the state file with actual state
 terraform refresh --target=moudle.aws_instance.loacl_name ## we can refresh module by targeting 
 terraform workspace show [to check the workspace]
