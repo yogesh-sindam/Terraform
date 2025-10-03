@@ -1,4 +1,4 @@
-# Terrafrom-documents.
+ # Terrafrom-documents.
 ```
 1 basic
 2 modulerization 
@@ -38,6 +38,7 @@ terraform plan --refresh-only # since refresh is being deprecated form version 1
 terraform apply --refresh-only
 
 ```
+
 Drift detection between code and actual infra
 run `Terraform plan` regularly using `scheduler`, use cicd 
 
