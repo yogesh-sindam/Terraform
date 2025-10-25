@@ -44,7 +44,7 @@ run `Terraform plan` regularly using `scheduler`, use cicd
 terraform refresh [outputs are automatically update state file]
 ###@@
 😐😐
-
+..
 
 
 
