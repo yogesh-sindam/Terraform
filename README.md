@@ -80,18 +80,26 @@ use terraform workspace, it will manage state file according to environment
 use terraform workspace, it will manage state file according to environment
 
 13) Explain the difference between depends_on and implicit dependency.
+depnds_on = resource will wait for the dependent resource will be created first and later it executed
+implicit = one resource is inferred with another automatically
 
 14) What are the best practices for writing reusable Terraform modules?
+creating a common module and use for multiple environment.
 
 15) Can two Terraform modules reference the same remote backend?
+yes, all resource data will be stored in same state.file
 
 16) How do you handle Terraform drifts?
+while running terraform plan you can detect the changes outside, take decision accordingly
 
 17) How do you integrate Terraform into a CI/CD pipeline?
 
 18) What’s the difference between terraform taint and terraform destroy?
+terraform taint - will destroy and create the resouce
+terraform destroy - will destroy the resouce only
 
 19) How to upgrade Terraform to a newer version safely in a production pipeline?
+changes the configuration in terraform version = "1.10.13" --> "1.19.0"
 
 20) Describe a real-world issue you faced with Terraform and how you resolved it.
 
