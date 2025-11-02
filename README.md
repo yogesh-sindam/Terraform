@@ -46,6 +46,52 @@ terraform refresh [outputs are automatically update state file]
 
 
 ##
+```
+These are the 20 most commonly asked Terraform questions—a must for anyone aiming for `Cloud Engineer or DevOps Engineer roles!`
 
+1) What is Terraform, and how is it different from other Infrastructure as Code (IaC) tools like CloudFormation or Ansible?
 
+2) Explain the concept of Terraform state. Where should it be stored securely?
 
+3) What is the difference between terraform plan and terraform apply?
+
+4) How do you manage secrets in Terraform?
+
+5) What are Terraform providers? Can you create a custom one?
+
+6) What is the role of terraform init?
+ans- to initialize the terraform, and check the provider it download the module form terraform.io  
+
+7) How do count, for_each, and dynamic blocks work in Terraform?
+ans- count = how many required, for_each = same resource will in a loop unitl the list is completed 
+8) What is the difference between local-exec and remote-exec provisioners?
+local-exec in name is mention local execution, the executed , remote-executed(that newly provisioned ec2)
+
+9) How do you perform Terraform state locking in a team environment?
+using a dynamodb, conquer the error of executing parallal apply cmd.
+
+10) What is terraform import used for? Any limitations?
+resource is created on console, need to add in terraform state will not state, need to import the and update the state file 
+
+11) How do you manage multiple environments (dev/stage/prod) in Terraform?
+use terraform workspace, it will manage state file according to environment
+
+12) What are Terraform workspaces, and when should you use them?
+
+13) Explain the difference between depends_on and implicit dependency.
+
+14) What are the best practices for writing reusable Terraform modules?
+
+15) Can two Terraform modules reference the same remote backend?
+
+16) How do you handle Terraform drifts?
+
+17) How do you integrate Terraform into a CI/CD pipeline?
+
+18) What’s the difference between terraform taint and terraform destroy?
+
+19) How to upgrade Terraform to a newer version safely in a production pipeline?
+
+20) Describe a real-world issue you faced with Terraform and how you resolved it.
+
+```
