@@ -77,6 +77,7 @@ resource is created on console, need to add in terraform state will not state, n
 use terraform workspace, it will manage state file according to environment
 
 12) What are Terraform workspaces, and when should you use them?
+use terraform workspace, it will manage state file according to environment
 
 13) Explain the difference between depends_on and implicit dependency.
 
