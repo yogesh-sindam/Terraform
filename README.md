@@ -52,6 +52,7 @@ These are the 20 most commonly asked Terraform questions—a must for anyone aim
 1) What is Terraform, and how is it different from other Infrastructure as Code (IaC) tools like CloudFormation or Ansible?
 
 2) Explain the concept of Terraform state. Where should it be stored securely?
+to store state file securely, use remote state backend(s3) instead store in loacl or github.
 
 3) What is the difference between terraform plan and terraform apply?
 
