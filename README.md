@@ -35,6 +35,7 @@ terraform workspace list [list of all workspcaes]
 terraform workspace select workspace_name [to select a workspace]
 terraform workpace delete workspace_name
 terraform plan --refresh-only # since refresh is being deprecated form version 1.9 >
+terraform plan --refresh-only # shows actual infra vs present state file
 terraform apply --refresh-only
 
 ```
