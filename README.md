@@ -36,7 +36,8 @@ terraform workspace select workspace_name [to select a workspace]
 terraform workpace delete workspace_name
 terraform plan -refresh-only # since refresh is being deprecated form version 1.9 >
 terraform plan -refresh-only # shows actual infra vs present state file
-terraform apply -refresh-only # update the statefile with actual infra 
+terraform apply -refresh-only # update the statefile with actual infra
+terraform plan/apply -refresh-only --target=module.
 terraform init --plugin-dir="c:/user/Appdata/roaming/provider/" # user exist provider to init so the file cant download it form terraform.io, is use already existed in local by providing plugin_dir
 
 ```
