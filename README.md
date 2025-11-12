@@ -5,7 +5,7 @@
 3 remote backend
 4 state locking (Dynamodb)
 5 provisioners
-6 local-exec, remote-exec
+6 local-exec, remote-exec these are combined used with null_resource
 7 null resource[ no action resource ]
   best use of null resource with provisioners 
 
