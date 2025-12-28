@@ -1,6 +1,6 @@
 # Terrafrom-documents
 ```
-1 Basics
+1 Basics.
 2 modulerization 
 3 remote backend
 4 state locking (Dynamodb)
