@@ -28,7 +28,8 @@ terraform apply -target=module
 terraform destory -target=module
 terraform taint resource_name.resource_local_name  # destroy and create the resource
 terraform refresh # refresh the state file with actual state
-terraform refresh --target=moudle.aws_instance.loacl_name ## we can refresh module by targeting 
+terraform refresh --target=moudle.aws_instance.loacl_name ## we can refresh module by targeting
+workspace will help to create resource in multiple env/account 
 terraform workspace show [to check the workspace]
 terraform workspace new workspace_name [new workspace]
 terraform workspace list [list of all workspcaes]
