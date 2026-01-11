@@ -21,6 +21,18 @@ resource "aws_cloudfront_distribution" "alpha" {
     origin_id                = "app1-origin"
     origin_access_control_id = aws_cloudfront_origin_access_control.oac.id
   }
+origin {
+  domain_name = aws_lb.app.dns_name
+  origin_id   = "alb-origin"
+
+  custom_origin_config {
+    http_port              = 80
+    https_port             = 443
+    origin_protocol_policy = "https-only"
+    origin_ssl_protocols   = ["TLSv1.2"]
+  }
+}
+## ELB with cloudfron 
 
   origin {
     domain_name              = aws_s3_bucket.app2.bucket_regional_domain_name
