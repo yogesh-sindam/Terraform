@@ -124,6 +124,15 @@ Here are 𝟏𝟓 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝, 𝐫𝐞𝐚𝐥-𝐰𝐨�
 12. How do you 𝐭𝐞𝐬𝐭 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐜𝐨𝐝𝐞 for logic, drift, and policy compliance?
 13. How do you design a 𝐦𝐮𝐥𝐭𝐢-𝐜𝐥𝐨𝐮𝐝 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐬𝐞𝐭𝐮𝐩 (AWS + Azure + GCP) with shared modules?
 14. How do you ensure 𝐢𝐝𝐞𝐦𝐩𝐨𝐭𝐞𝐧𝐜𝐲 and prevent unwanted re-creations during apply?
-15. How do you design 𝐛𝐥𝐮𝐞-𝐠𝐫𝐞𝐞𝐧 𝐨𝐫 𝐜𝐚𝐧𝐚𝐫𝐲 𝐢𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐫𝐨𝐥𝐥𝐨𝐮𝐭𝐬 using Terraform and pipelines?.
+15. How do you design 𝐛𝐥𝐮𝐞-𝐠𝐫𝐞𝐞𝐧 𝐨𝐫 𝐜𝐚𝐧𝐚𝐫𝐲 𝐢𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐫𝐨𝐥𝐥𝐨𝐮𝐭𝐬 using Terraform and pipelines?
 
 ```
+## Enforce resource deletion method on terraform code
+```
+resource "aws_db_instance" "main" {
+  ...
+  deletion_protection = true
+}
+# even terraform try to destroy -> aws block it
+```
+
