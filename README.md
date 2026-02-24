@@ -10,7 +10,7 @@
   best use of null resource with provisioners.
 
 ```
-## Important terraform commands.
+## Important terraform commands
 ```
 terraform init - to initialize
 terraform plan - to dry run or a basic execution check that plan can able to apply
