@@ -1,4 +1,4 @@
-`these resource tf code should be created`
+these resource tf code should be created
 ```
 Ec2
 vpc
