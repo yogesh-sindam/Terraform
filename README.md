@@ -12,7 +12,7 @@
 ```
 ## Important terraform commands
 ```
-terraform init - to initialize
+terraform init - to initialize .
 terraform plan - to dry run or a basic execution check that plan can able to apply
 terraform apply - apply the changes on provider 
 terraform apply --auto-approve - to skip manual acceptence which applying the plan
