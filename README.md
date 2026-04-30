@@ -136,3 +136,4 @@ resource "aws_db_instance" "main" {
 # even terraform try to destroy -> aws block it
 ```
 
+# Crossplane vs Terraform
